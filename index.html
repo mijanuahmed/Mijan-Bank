@@ -89,6 +89,10 @@
 
             const depositNumber = getInputNumber("depositAmount");
 
+            if(depositNumber < 0){
+                alert("Deposit number can not be negative!")
+            }
+            else{
 
             const currentDepositAmount = document.getElementById("currentDeposit").innerText;
 
@@ -104,7 +108,7 @@
 
             document.getElementById("depositAmount").value = "";
 
-
+        }
 
         })
 
@@ -113,6 +117,10 @@
         withdrawBtn.addEventListener("click", function () {
 
             const withdrawNumber = getInputNumber("withdrawAmount");
+            if (withdrawNumber < 0){
+                alert("Withdraw number can not be negative!")
+            }
+            else{
             const currentWithdrawAmount = document.getElementById("currentWithdraw").innerText;
             
           const currentWithdrawNumber = parseFloat(currentWithdrawAmount);
@@ -125,6 +133,7 @@
             document.getElementById("currentBalance").innerText = totalBalance;
 
             document.getElementById("withdrawAmount").value = "";
+        }
         })
 
         function getInputNumber(id) {
