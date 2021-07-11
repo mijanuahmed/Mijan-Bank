@@ -1,39 +1,37 @@
-body{
-    padding: 100px;
+body {
+  padding: 100px;
 }
 
-.submit-area{
-    
-    margin-top: 50px;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px gray;
-
-
+.enter-without-email-pass {
+  margin-top: 20px;
 }
 
-#transaction-area{
-    display: none;
+.submit-area {
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
 }
 
-.status{
-    margin: 0px 20px;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
+#transaction-area {
+  display: none;
 }
 
-.deposit{
-    
-    background-color: slateblue;
+.status {
+  margin: 0px 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.withdraw{
-   
-    background-color: lightsalmon;
+.deposit {
+  background-color: slateblue;
 }
 
-.balance{
-   
-    background-color: orange;
+.withdraw {
+  background-color: lightsalmon;
+}
+
+.balance {
+  background-color: orange;
 }
